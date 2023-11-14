@@ -29,9 +29,18 @@ isEmpty() – Return true if the list is empty, otherwise return false.
 isFull() – Return true if the list is full, otherwise return false.
 
  -empty list has size 0
---insert 
+ -insert 
  -remove 
  -count 
  -read /modify  element at a position 
  -specify data type
+
+//array 
+when array is full create a new larger array , copy previous array 
+into the new array. free the meomory for the previous array 
+
+access- read / write element at an index  -- constant time O(1)
+insert - O(n)
+remove -O(n)
+add - O(n)
 
